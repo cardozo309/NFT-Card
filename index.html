@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(217, 54%, 11%);
+      font-size: 14px;
+      
+    }
+
+    .main{
+      background-color: hsl(216, 50%, 16%);
+      width: 300px;
+      height: 500px;
+      margin: auto;
+      border-radius: 8px;
+      position: relative;
+      top: 60px;
+    }
+
+    .img{
+      position: relative;
+      top: 10px;
+      left: 5px;
+    }
+
+    img{
+      position: relative;
+      left: 20px;
+      height: 250px;
+      width: 250px;
+      border-radius: 10px;
+      
+    }
+
+    .texto{
+      color: hsl(0, 0%, 100%);
+      font-family: outfit;
+      margin-left: 25px;
+      
+    }
+
+    p{
+      color: hsl(215, 32%, 30%);
+      width: 250px;
+    }
+
+
+    .list1{
+      color: rgb(0, 255, 248);
+      padding-left: 15px;
+      float: left;
+      list-style-image: url(images/icon-ethereum.svg);
+    }
+
+    .list2{
+      color: hsl(215, 32%, 27%);
+      padding-right: 20px;
+      float: right;
+      list-style-image: url(images/icon-clock.svg);
+    }
+
+    .linha{
+      position: relative;
+      opacity: 0.1;
+      right: 12px;
+    }
+
+    .foto{
+      display: inline-block;
+      height: 30px;
+      width: 30px;
+      border:  solid 1px;
+      border-radius: 50%;
+      margin-left: -10px;
+    }
+
+    .dono{
+      display: inline;
+      position: relative;
+      left: 30px;
+      bottom: 10px;
+    }
+
+    .corNormal{
+      color: hsl(0, 0%, 100%);
+    }
+
+   
+  </style>
+</head>
+<body>
+
+  <div class="main">
+
+    <div class="img">
+
+      <img src="images/image-equilibrium.jpg">
+
+    </div>
+
+    <div class="texto">
+
+      <h2>Equilibrium #3429</h2>
+
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+
+    <ul class="list1">
+        <li>0.041 ETH</li>
+    </ul>
+
+    <ul class="list2">
+        <li>3 days left</li>
+    </ul>
+    
+        <br><br><br>
+        <hr class="linha">
+    <div>
+        <img class="foto" src="images/image-avatar.png">
+        <p class="dono">Creation of <span class="corNormal">Jules Wyvern</span></p>
+    </div>
+  </div>
+
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+  
+</body>
+</html>
